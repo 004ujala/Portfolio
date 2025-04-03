@@ -1,0 +1,97 @@
+/* Main Navbar */
+.navbarMain {
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 1000; /* Keeps navbar above other content */
+}
+
+/* Normal Navbar */
+.navBar {
+    display: flex;
+}
+
+/* Hide Navbar on small screens */
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navBar ul li {
+    margin: 0 15px;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav:hover {
+    color: lightgray;
+}
+
+/* SmallNav (Hamburger & Close Button) */
+.smallNav {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Navbar for Small Screens */
+@media screen and (max-width: 768px) {
+    .smallNav {
+        display: block; /* Show hamburger menu */
+        z-index: 1500; /* Keep it above everything */
+    }
+
+    .navBar {
+        position: absolute;
+        top: 8vh; /* Ensure it starts below the title */
+        left: 0;
+        width: 100vw; /* Full width */
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-150%);
+        /* transition: transform 0.3s ease-in-out; */
+        padding: 10px 0;
+        z-index: 1000; /* Keep menu below h2 but above content */
+        outline: none; /* ✅ Fix: Removes the focus box */
+    }
+
+
+    .navBar.active {
+        transform: translateY(0); /* Show menu */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navBar ul {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 5px;
+        width: 100%; /* Full width */
+    }
+
+    .navBar ul li {
+        width: 100%;
+        padding: 10px 0; /* Spacing */
+    }
+}
