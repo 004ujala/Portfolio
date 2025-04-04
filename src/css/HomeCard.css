@@ -1,0 +1,39 @@
+/* Parent container wrapping all cards */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Aligns all cards from the top */
+}
+
+/* Card styling */
+.homeCard {
+    width: 300px;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Keep content aligned to the top */
+    text-align: center;
+}
+
+/* Icon container */
+.homeIcon {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileDetail{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Icon styling */
+.homeCardIcon {
+    font-size: 30px; /* Ensures same size */
+}
