@@ -1,0 +1,67 @@
+.mainEducation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+    background-color: #f9f9f9;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .aboutEducation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+   .educationImg1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  } 
+
+
+.educationContent1 {
+    flex: 1;
+    min-width: 300px;
+    /* Add your content styles here */
+} 
+
+@media(max-width:500px){
+    .mainEducation{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .educationImg1 img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      }
+     .educationContent1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 350px;
+        height: auto;
+        padding: 0 5px;
+     } 
+}
+  
+
+  
