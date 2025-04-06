@@ -2,6 +2,7 @@ import React from 'react'
 import "../css/Education.css"
 import EducationCard from './EducationCard';
 import CertificateCard from './CertificateCard';
+import ResearchCard from './ResearchCard';
 
 const Education = () => {
     return (
@@ -49,6 +50,50 @@ const Education = () => {
                         <CertificateCard src="/CertificatesImgFol/LL.jpg" link="https://www.linkedin.com/in/adityanarayansharma/details/certifications/" />
                     </div>
                 </div>
+            </div>
+            <div className="container mt-5">
+                <h1 className="text-center" >Research</h1>
+                <div className="row certificationDetails">
+                    <div className="d-flex justify-content-center align-items-center col-lg-3 col-sm-12">
+                        <ResearchCard
+                            src="/ResearchImgFol/Fraud.jpg"
+                            name="Fraud Detection and Analysis"
+                            description="We aimed to develop a project that work on insurance claim data set to detect fraud and fake claims amount."
+                            link="https://www.researchgate.net/publication/374087886_Fraud_Detection_and_Analysis_for_Insurance_Claim_using_Machine_Learning"
+                        />
+
+                    </div>
+                    <div className="d-flex justify-content-center align-items-center col-lg-3 col-sm-12">
+                        <ResearchCard
+                            src="/ResearchImgFol/Vehicle.jpg"
+                            name="Vehicle Price Prediction System"
+                            description="Vehicle Price Prediction System becomes need of the hour so that one can effectively determine the true value of a used car."
+                            link="https://www.researchgate.net/publication/374152690_Vehicle_Price_Prediction_System_using_Machine_Learning"
+                        />
+
+                    </div>
+                    <div className="d-flex justify-content-center align-items-center col-lg-3 col-sm-12">
+                        <ResearchCard
+                            src="/ResearchImgFol/Insurance.jpg"
+                            name="Enhancing Insurance Fraud Detection"
+                            description="This paper introduces an innovative approach to address the significant financial burden imposed by insurance fraud within the industry."
+                            link="https://www.researchgate.net/publication/374542288_Enhancing_Insurance_Fraud_Detection_-A_Machine_Learning_Approach_for_Timely_and_Accurate_Risk"
+                        />
+
+                    </div>
+                    <div className="d-flex justify-content-center align-items-center col-lg-3 col-sm-12">
+                        <ResearchCard
+                            src="/ResearchImgFol/Traffic.jpg"
+                            name="Generative Adversarial Networks for Anomaly Detection"
+                            description="This research proposes a novel approach that leverages (GAN) to model normal network behavior and detect anomalies in real-time network traffic."
+                            link="https://www.researchgate.net/publication/379606971_Generative_Adversarial_Networks_for_Anomaly_Detection_in_Network_Traffic"
+                        />
+
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     )

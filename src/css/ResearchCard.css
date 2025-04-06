@@ -1,0 +1,17 @@
+.mainResearchCard{
+    width: 250px;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.researchImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 14px;
+}
+
+.researchImg img{
+    width: 250px;
+    height: 250px;
+    border-radius: 14px;
+}

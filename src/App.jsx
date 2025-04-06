@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Project from "./components/Project";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/education" element={<Education />} />
         <Route exact path="/experience" element={<Experience />} />
+        <Route exact path="/project" element={<Project />} />
 
       </Routes>
       <Footer />
