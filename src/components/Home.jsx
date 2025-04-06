@@ -21,10 +21,10 @@ const Home = () => {
                     </ul>
 
                     <div className="container row mt-5">
-                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faComputer} profileName="Engineer" content="Solve complex problems with innovation.Apply AI/ML and Python expertise.Engage in research and real-world projects." /></div>
-                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faUser} profileName="SuperCharged Employee" content="Deliver high energy and efficiency. Think proactively and solve problems. Continuously learn and adapt." /></div>
-                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faPersonChalkboard} profileName="Mentor" content="Guide and inspire peers. Simplify complex concepts. Empower others through knowledge." /></div>
-                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faVolumeHigh} profileName="Public Speaker" content="Present with clarity and confidence. Engage audiences on tech topics. Make knowledge-sharing impactful." /></div>
+                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faComputer} profileName="Engineer" content="Designing smart, efficient solutions through thoughtful code and innovative systems." /></div>
+                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faUser} profileName="Supercharged Employee" content="Creating meaningful impact with enthusiasm, accountability and proactive drive." /></div>
+                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faPersonChalkboard} profileName="Mentor" content="Inspiring growth by offering guidance, insights, and support to others." /></div>
+                        <div className='d-flex justify-content-center align-items-center col-lg-3 col-sm-12' ><HomeCard icon={faVolumeHigh} profileName="Public Speaker" content="Breaking down complex technology into engaging narratives that educate and inspire." /></div>
                     </div>
                 </div>
             </div>

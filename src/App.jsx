@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Achievement from "./components/Achievement";
 const App = () => {
   return (
     <Router>
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/experience" element={<Experience />} />
         <Route exact path="/project" element={<Project />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/achievement" element={<Achievement />} />
       </Routes>
       <Footer />
     </Router>

@@ -17,7 +17,7 @@ const Contact = () => {
                     <img src="/contactImg.jpg" alt="Contact" />
                 </div>
                 <div className="rightContentdiv">
-                    <p className='text-center'>Get in Touch</p>
+                    <h2 className='text-center'>Get in Touch</h2>
                     <p className='text-center'>Got questions or ideas to share? I’d love to connect!</p>
                     <p className='text-center'>Reach out to me through any of my social media handles below.</p>
                     <p className='text-center'>Whether it's about tech, projects, or a quick chat — I'm just a message away.</p>

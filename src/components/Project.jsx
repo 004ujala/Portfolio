@@ -11,7 +11,7 @@ const Project = () => {
                     <div className="d-flex justify-content-around align-items-center col-lg-3 col-sm-12">
                         <ProjectCard
                             src="/ProjectImgFol/webImgFol/LC.jpg"
-                            liveLink="lucknowitcity.netlify.app"
+                            liveLink="https://lucknowitcity.netlify.app/"
                             githubLink="https://github.com/Adinarayanreloaded/hclAditya"
                             desc="This website describes how the technical landscape is developing in New Lucknow."
                         />
