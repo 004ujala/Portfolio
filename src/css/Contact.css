@@ -1,0 +1,71 @@
+.mainContactdiv{
+    padding-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    min-height:92vh;
+}
+.leftImgdiv img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.rightContentdiv{
+    width: 400px;
+    height: auto;
+}
+
+@media(max-width:500px){
+    .leftImgdiv img{
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    .rightContentdiv{
+        width: 350px;
+        height: auto;
+    }
+}
+
+
+.socialMediaContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* spacing between icons */
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+/* Style all FontAwesome icons inside */
+.socialMediaContact a {
+    font-size: 32px; /* base size */
+    color: #444;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socialMediaContact a:hover {
+    transform: scale(1.2);
+    color: #0077b5; /* You can change this per platform if you want */
+}
+
+/* Optional: Responsive tweaks */
+@media (max-width: 768px) {
+    .socialMediaContact {
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .socialMediaContact a {
+        font-size: 28px;
+    }
+}
+
